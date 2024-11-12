@@ -1,0 +1,8 @@
+def solution():
+    x=list(input().split())
+    x.sort()
+    x.reverse()
+    x=list(set(x))
+
+    print(x)
+
